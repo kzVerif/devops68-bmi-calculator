@@ -1,5 +1,5 @@
 {
-  "name": "bmi-calculator",
+  "name": "devops68-bmi-calculator",
   "version": "1.0.0",
   "description": "API to calculate Body Mass Index",
   "main": "index.js",
