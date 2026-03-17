@@ -26,7 +26,8 @@ http://localhost:3002/calculate?weight=70&height=1.75
 ```
 # 🚀 วิธีการใช้งาน Terraform กับ AWS (ฉบับสมบูรณ์)
 
-คู่มือนี้จะสอนการตั้งค่าตั้งแต่การลงโปรแกรม ไปจนถึงการสั่งรัน Resource บน AWS (Region: Singapore)
+คู่มือนี้จะสอนการตั้งค่าตั้งแต่การลงโปรแกรม ไปจนถึงการสั่งรัน Resource บน AWS (Region: Singapore) <br/>
+ไม่จำเป้นต้องสร้าง keypairs ใหม่ TerraForm จะจัดการเรื่องสร้าง Keys ให้เอง
 
 ---
 
