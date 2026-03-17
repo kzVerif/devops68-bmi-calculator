@@ -8,7 +8,7 @@ variable "aws_region" {
 variable "key_name" {
   description = "ชื่อของ Key Pair ใน AWS ที่ใช้สำหรับ SSH เข้าเครื่อง EC2"
   type        = string
-  default     = "my-terraform-key-kanghunz"
+  default     = "terraform_key_pairs"
 }
 
 # 3. ขนาดของ Server (Instance Type)

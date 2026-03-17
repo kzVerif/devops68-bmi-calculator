@@ -54,10 +54,10 @@ resource "aws_security_group" "app_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  # อนุญาต Traffic สำหรับ Node.js Application (Port 3000)
+  # อนุญาต Traffic สำหรับ Node.js Application (Port 3002)
   ingress {
-    from_port   = 3000
-    to_port     = 3000
+    from_port   = 3002
+    to_port     = 3002
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
